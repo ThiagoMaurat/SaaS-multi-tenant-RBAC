@@ -1,8 +1,8 @@
-/** @type {import("eslint").Linter.Config} */
+/** @type {import('eslint').Linter.Config} */
 module.exports = {
-  extends: ["rocketseat/eslint-config/node"],
-  plugins: ["simples-import-sort"],
+  extends: ['@rocketseat/eslint-config/node'],
+  plugins: ['simple-import-sort'],
   rules: {
-    "simples-import-sort/imports": "error",
+    'simple-import-sort/imports': 'error',
   },
-};
+}
